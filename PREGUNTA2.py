@@ -10,7 +10,7 @@ for j in range(numero_de_listas):
         print("Dígame la palabra", str(i+1)+":", end="")
         palabra = input()
         lista += [palabra]
-    print("La lista creada es:", lista)
+    print("La lista", j+1 ,"creada es:", lista)
      
 
   
